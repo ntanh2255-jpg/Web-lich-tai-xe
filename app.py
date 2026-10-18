@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import os, unicodedata
 
-SCHEDULE_FILE = r"/content/Lich_tai_xe_ALNS_30_ngay_can_bang.xlsx"
-TIME_FILE = r"/content/Giờ đến trường ALNS.xlsx"
+SCHEDULE_FILE = "Lich_tai_xe_ALNS_30_ngay_can_bang.xlsx"
+TIME_FILE = "Giờ đến trường ALNS.xlsx"
 
 st.set_page_config(page_title="Lịch làm việc tài xế", page_icon="🚚", layout="wide", initial_sidebar_state="expanded")
 
